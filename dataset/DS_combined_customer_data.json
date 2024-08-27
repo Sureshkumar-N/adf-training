@@ -1,0 +1,24 @@
+{
+	"name": "DS_combined_customer_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_datatraining_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customerDetails",
+				"folderPath": "customer",
+				"container": "consolidated-folder"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
