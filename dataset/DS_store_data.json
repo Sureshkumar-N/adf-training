@@ -1,0 +1,16 @@
+{
+	"name": "DS_store_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_datatraining_sqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "store"
+		}
+	}
+}

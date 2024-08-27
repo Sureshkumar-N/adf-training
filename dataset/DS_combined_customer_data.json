@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "orderDetails.csv",
-				"folderPath": "@pip",
+				"fileName": "store.csv",
+				"folderPath": "store",
 				"container": "consolidated-folder"
 			},
 			"columnDelimiter": ",",
