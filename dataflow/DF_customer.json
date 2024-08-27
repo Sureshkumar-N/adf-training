@@ -1,0 +1,25 @@
+{
+	"name": "DF_customer",
+	"properties": {
+		"description": "load raw data into data-training-sqldb",
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "DS_combined_customer_data",
+						"type": "DatasetReference"
+					},
+					"name": "customerDetails"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> customerDetails"
+			]
+		}
+	}
+}

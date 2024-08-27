@@ -1,0 +1,19 @@
+{
+	"name": "DS_order_details",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_datatraining_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			}
+		},
+		"schema": []
+	}
+}
