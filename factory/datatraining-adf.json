@@ -1,0 +1,9 @@
+{
+	"name": "datatraining-adf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0f2e28e3-cd0e-44ec-bfb9-ddf3bf56eaf4",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
